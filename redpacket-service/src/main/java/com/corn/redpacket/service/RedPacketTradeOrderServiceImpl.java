@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-@Service(interfaceClass = RedPacketTradeOrderService.class,group = "default")
+@Service(interfaceClass = RedPacketTradeOrderService.class)
 public class RedPacketTradeOrderServiceImpl implements RedPacketTradeOrderService {
 
 

@@ -50,8 +50,8 @@
     <bean id="transactionRepository"
           class="org.mengyun.tcctransaction.spring.repository.SpringJdbcTransactionRepository">
         <property name="dataSource" ref="dataSource"/>
-        <property name="domain" value="redService"/>
-        <property name="tbSuffix" value="_RED"/>
+        <property name="domain" value="capitalService"/>
+        <property name="tbSuffix" value="_CAP"/>
     </bean>
 
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">

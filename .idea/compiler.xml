@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="redpacket-service" />
         <module name="api-service" />
+        <module name="pay-service" />
+        <module name="capital-service" />
+        <module name="redpacket-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="capital-service" options="-parameters" />
+      <module name="pay-service" options="-parameters" />
       <module name="redpacket-service" options="-parameters" />
     </option>
   </component>

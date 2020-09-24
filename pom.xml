@@ -10,6 +10,8 @@
   <modules>
     <module>api-service</module>
     <module>redpacket-service</module>
+    <module>capital-service</module>
+    <module>pay-service</module>
   </modules>
   <packaging>pom</packaging>
 
